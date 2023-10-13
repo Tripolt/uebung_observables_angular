@@ -1,0 +1,80 @@
+.product img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.product h2 {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.product p {
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+}
+
+.quantity {
+    font-family: 'Arial', sans-serif;
+    margin: 20px 0;
+}
+
+.quantity button {
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#quantity {
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    width: 50px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+#add-to-cart {
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.cart {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff;
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(183, 183, 183);
+}
+
+.cart h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.cart-item img {
+    width: 50px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.cart-item p {
+    font-size: 18px;
+    margin: 0;
+}

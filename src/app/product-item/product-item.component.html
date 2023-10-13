@@ -1,0 +1,13 @@
+
+    <div class="product">
+        <img src="https://support.apple.com/library/APPLE/APPLECARE_ALLGEOS/SP770/iphonex.png" alt="iPhone">
+        <h2>iPhone X</h2>
+        <p>Price: $999</p>
+        <div class="quantity">
+            <button id="decrement" (click)="removeItem()">-</button>
+            <button id="increment" (click)="addItem()">+</button>
+        </div>
+        <button id="add-to-cart" [routerLink]="['/info']" >Go To Cart</button>
+
+        <h2>Add to Cart by clicking + and -</h2>
+    </div>
